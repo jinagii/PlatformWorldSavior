@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>MainGame\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>YHEngine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>YHEngine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>YHEngine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>YHEngine\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>YHEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>YHEngine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawFunction.cpp">
+      <Filter>YHEngine\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene01_Intro.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene04_Stage.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene05_Ingame.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene06_Result.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene03_Cut.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene02_WorldChoice.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>YHEngine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>YHEngine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Loding.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>MainGame\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>YHEngine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>YHEngine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>YHEngine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>YHEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>YHEngine\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>YHEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>YHEngine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawFunction.h">
+      <Filter>YHEngine\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene01_Intro.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene04_Stage.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene05_Ingame.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene06_Result.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene03_Cut.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene02_WorldChoice.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>YHEngine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>YHEngine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Loding.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{d5cf809d-680a-4084-a57b-ed154b6b1051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{df7a7b33-4d51-4433-a7da-55c20b6f43d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{7302a64f-f55b-43aa-8c81-e20a2583bfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Map">
+      <UniqueIdentifier>{dc85a750-7d3b-4f82-973a-c704af5993cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{89a2a6bd-2e30-4f0d-a42e-c8ba8d2d46b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{94cd6d1b-9d0b-4e36-b937-9bcaf93da431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHEngine">
+      <UniqueIdentifier>{e03802da-8a00-4542-a675-42a31cac153a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHEngine\Manager">
+      <UniqueIdentifier>{ddd19d81-17c2-4a39-a62b-05c3a1117b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHEngine\Image">
+      <UniqueIdentifier>{0e0a6330-6aeb-4247-83a3-f9a74b1debf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHEngine\Draw">
+      <UniqueIdentifier>{a34a8d49-a371-492c-a68f-e8fd1bae1c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHEngine\Sound">
+      <UniqueIdentifier>{3a6b2cb2-077e-4f6b-b8a8-f3773d6c6bb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Resources\_Images\cursor1.cur">
+      <Filter>WinMain</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Platform_World_Savior.rc">
+      <Filter>WinMain</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="_Resources\_Images\shovel64_2.ico">
+      <Filter>WinMain</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
